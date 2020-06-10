@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <app-header></app-header>
-    <div class="row">
+    <div class="row stock">
       <div class="col-xs-12">
         <router-view></router-view>
       </div>
@@ -21,5 +21,8 @@ export default {
 <style>
 body {
     padding: 30px;
+}
+.stock {
+    margin-top: 50px;
 }
 </style>

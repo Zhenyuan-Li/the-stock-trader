@@ -12,7 +12,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">End Day</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
+                        <a href="#" class="dropdown-toggle" data-toggler="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                             Save & Load <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
@@ -31,3 +31,7 @@ export default {
     
 }
 </script>
+
+<style scope>
+
+</style>
