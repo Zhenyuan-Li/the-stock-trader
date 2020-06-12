@@ -50,6 +50,7 @@ export default {
     },
   },
   methods: {
+<<<<<<< HEAD
     buyStock() {
       const order = {
         stockId: this.stock.id,
@@ -60,6 +61,18 @@ export default {
       this.quantity = 0;
     },
   },
+=======
+      buyStock() {
+          const order = {
+              stockId: this.stock.id,
+              stockPrice: this.stock.price,
+              quantity: +this.quantity
+          }
+          this.$store.dispatch('buyStock', order)
+          this.quantity = 0   
+      }
+  }
+>>>>>>> 61cf6322831060b7d78e26a0688cc1cf8b2919d5
 };
 </script>
 
